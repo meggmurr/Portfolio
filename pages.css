@@ -1,0 +1,143 @@
+img,
+video {
+  display: block;
+}
+
+h1 {
+  font-family: Helvetica;
+}
+
+h2 {
+  font-family: Helvetica;
+  text-align: center;
+}
+h3 {
+  font-family: Helvetica;
+  text-align: center;
+  font-weight: 200;
+  font-size: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.about video::-webkit-media-controls {
+  display: none;
+}
+.items {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.resume {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.viditem {
+  box-shadow: 0px 0px 20px #000000;
+  margin-bottom: 10vh;
+  width: 80%;
+}
+
+.imgitem {
+  box-shadow: 0px 0px 20px #000000;
+  margin-bottom: 10vh;
+  width: 51%;
+}
+
+.home {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+  height: 130px;
+  padding-top: 34px;
+  flex-wrap: wrap;
+  font-family: Helvetica;
+  text-decoration: none;
+}
+
+.home a {
+  margin-bottom: 0px;
+  height: 0px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
+.logo {
+  display: flex;
+}
+h1 {
+  margin-bottom: 0px;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+.menu {
+   margin-bottom: 0px;
+   height: 0px;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-container {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding-top: 40vh;
+  width: 200px;
+}
+
+.hover-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hover-container:hover img:last-child {
+  opacity: 0;
+}
+
+.headcontainer {
+  display:flex;
+  justify-content: flex-end;
+}
+
+.hover-headcontainer {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding-top: 132px;
+  width: 100px;
+}
+
+.hover-headcontainer img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hover-headcontainer:hover img:last-child {
+  opacity: 0;
+}
