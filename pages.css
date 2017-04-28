@@ -118,26 +118,3 @@ a:visited {
 .hover-container:hover img:last-child {
   opacity: 0;
 }
-
-.headcontainer {
-  display:flex;
-  justify-content: flex-end;
-}
-
-.hover-headcontainer {
-  position: relative;
-  display: block;
-  overflow: hidden;
-  padding-top: 132px;
-  width: 100px;
-}
-
-.hover-headcontainer img {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.hover-headcontainer:hover img:last-child {
-  opacity: 0;
-}
