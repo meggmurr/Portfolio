@@ -1,5 +1,6 @@
 img,
-video {
+video,
+iframe {
   display: block;
 }
 
