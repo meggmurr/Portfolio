@@ -1,9 +1,19 @@
 h3 {
   font-family: Helvetica;
   max-width: 500px;
-  line-height: 5vh;
+  line-height: 4vh;
   font-weight: 400;
   margin-top: 0px;
+  text-align: center;
+}
+h2 {
+  font-size: 15px;
+  font-family: Helvetica;
+  max-width: 500px;
+  line-height: 4vh;
+  font-weight: 400;
+  margin-top: 0px;
+  text-align: center;
 }
 .container {
   display:flex;
@@ -53,4 +63,38 @@ a:visited {
 }
 .menu a:hover {
     text-decoration: underline;
+}
+
+.hover-container {
+  position: relative;
+  display: block;
+  padding-top: 150px;
+  width: 150px;
+  left: 100;
+}
+
+.hover-container img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+}
+
+.hover-container:hover img:first-child {
+  opacity: 100;
+}
+
+.test {
+    display: none;
+    margin-left: 202px;
+    margin-top: -350px;
+}
+
+span:hover + .test {
+    display: block;
+    position: absolute;
+}
+
+.contact {
+  font-size: 15px;
 }
