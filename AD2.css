@@ -21,6 +21,7 @@ h1 {
 
 a:link {
     text-decoration: none;
+    color: black;
 }
 a:visited {
     color: black;
@@ -57,4 +58,19 @@ a:visited {
 
 .hover-container:hover img:last-child {
   opacity: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 15px;
+  font-family: Helvetica;
+  max-width: 500px;
+  line-height: 4vh;
+  font-weight: 400;
+  margin-top: 0px;
+  text-align: center;
 }
