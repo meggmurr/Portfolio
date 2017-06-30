@@ -16,13 +16,12 @@ p {
 }
 .container {
   display:flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: top;
-  margin-bottom: -35px;
 }
 
 .container img {
-  margin-right: -125px;
+  margin-right: 30px;
   margin-top: 7px;
 }
 
@@ -84,8 +83,8 @@ a:visited {
 
 .test {
     display: none;
-    margin-left: 202px;
-    margin-top: -350px;
+    margin-left: 309px;
+    margin-top: -126px;
 }
 
 span:hover + .test {
