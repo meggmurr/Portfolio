@@ -34,21 +34,21 @@ h3 {
 }
 
 .resume {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 50px;
+  box-shadow: 0px 0px 15px #777;
+  margin-bottom: 40px;
+  width: 60%;
+  margin-top: -40px;
 }
 
 .viditem {
-  box-shadow: 0px 0px 20px #000000;
-  margin-bottom: 10vh;
+  box-shadow: 0px 0px 15px #777;
+  margin-bottom: 80px;
   width: 80%;
 }
 
 .imgitem {
-  box-shadow: 0px 0px 20px #000000;
-  margin-bottom: 10vh;
+  box-shadow: 0px 0px 15px #777;
+  margin-bottom: 80px;
   width: 51%;
 }
 
@@ -106,7 +106,7 @@ a:visited {
   position: relative;
   display: block;
   overflow: hidden;
-  padding-top: 40vh;
+  padding-top: 200px;
   width: 200px;
 }
 
@@ -125,14 +125,14 @@ a:visited {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: -8vh;
-  padding-left: 20vh;
-  padding-right: 20vh;
+  margin-top: -60px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .stubhubimg {
-  box-shadow: 0px 0px 20px #000000;
-  margin-bottom: 10vh;
+  box-shadow: 0px 0px 15px #777;
+  margin-bottom: 80px;
   width: 30%;
 }
 
