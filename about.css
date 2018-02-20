@@ -8,7 +8,6 @@ h3 {
 p {
   font-size: 15px;
   font-family: Helvetica;
-  max-width: 500px;
   line-height: 25px;
   font-weight: 400;
   margin-top: 0px;
@@ -90,9 +89,4 @@ a:visited {
 span:hover + .test {
     display: block;
     position: absolute;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
 }
