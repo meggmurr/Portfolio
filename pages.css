@@ -125,26 +125,19 @@ a:visited {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: -60px;
-  padding-left: 150px;
-  padding-right: 150px;
+  margin-top: -80px;
 }
 
-.stubhubimg {
-  box-shadow: 0px 0px 15px #777;
-  margin-bottom: 80px;
-  width: 30%;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
+.lpitems {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 p {
   font-size: 15px;
   font-family: Helvetica;
-  max-width: 500px;
   line-height: 25px;
   font-weight: 400;
   margin-top: 0px;

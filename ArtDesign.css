@@ -138,16 +138,10 @@ h2 {
   color: #fff;
 }
 
-.footer {
-  display: flex;
-  justify-content: center;
-}
-
 p {
   font-size: 15px;
   font-family: Helvetica;
-  max-width: 500px;
-  line-height: 50px;
+  line-height: 25px;
   font-weight: 400;
   margin-top: 0px;
   text-align: center;
