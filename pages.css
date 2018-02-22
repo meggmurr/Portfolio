@@ -20,7 +20,12 @@ h3 {
   max-width: 900px;
   margin: auto;
 }
-
+h4 {
+    font-family: Helvetica;
+    font-size: 20px;
+    margin-left: 75px;
+}
+]
 .about video::-webkit-media-controls {
   display: none;
 }
@@ -142,4 +147,8 @@ p {
   font-weight: 400;
   margin-top: 0px;
   text-align: center;
+}
+
+.button:hover {
+  opacity: 0.7;
 }
