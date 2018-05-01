@@ -78,11 +78,19 @@ h4 {
   align-items: baseline;
   width: 100%;
 }
+.icons {
+  display: flex;
+  margin-top: 62px;
+  margin-left: -7px;
+  align-items: baseline;
+}
+
+.icon {
+  margin-left: 4px;
+}
+
 .logo {
   display: flex;
-}
-h1 {
-  margin-bottom: 0px;
 }
 
 a:link {
