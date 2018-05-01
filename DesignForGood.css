@@ -18,7 +18,10 @@
 h1 {
   margin-bottom: 0px;
 }
-
+.icons {
+margin-top: 62px;
+margin-left: -7px;
+}
 a:link {
     text-decoration: none;
     color: black;
