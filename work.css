@@ -3,6 +3,7 @@
   justify-content: space-around;
   width: 250px;
   height: 130px;
+  margin-left: -5px;
   padding-top: 34px;
   flex-wrap: wrap;
   font-family: Helvetica;
@@ -27,6 +28,9 @@ a:visited {
     color: black;
     text-decoration: none;
 }
+.big {
+  margin-top: -5px;
+}
 .menu {
    margin-bottom: 0px;
    height: 0px;
@@ -46,8 +50,8 @@ a:visited {
   position: relative;
   display: block;
   overflow: hidden;
-  padding-top: 220px;
-  width: 250px;
+  padding-top: 285px;
+  width: 343px;
 }
 
 .hover-container img {
@@ -60,13 +64,6 @@ a:visited {
   opacity: 0;
 }
 
-.footer {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: flex-end;
-}
-
 p {
   font-size: 15px;
   font-family: Helvetica;
@@ -75,8 +72,4 @@ p {
   font-weight: 400;
   margin-top: 0px;
   text-align: center;
-}
-
-.button:hover {
-  opacity: 0.7;
 }

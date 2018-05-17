@@ -30,6 +30,7 @@ p {
   justify-content: space-around;
   width: 250px;
   height: 130px;
+  margin-left: -5px;
   padding-top: 34px;
   flex-wrap: wrap;
   font-family: Helvetica;
